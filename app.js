@@ -1,6 +1,6 @@
 const PDFJS = require('pdfjs-dist');
 
-const urlPDF = 'https://smf-assets.s3.amazonaws.com/5a3b57bb8247b80004dc1b80-2017-12-27';
+const urlPDF = 'assets/test.pdf';
 PDFJS.workerSrc = 'lib/pdf.worker.js';
 
 function getPdf() {
